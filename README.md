@@ -9,12 +9,12 @@ This homelab serves as a study environment for network routing, virtualization, 
 | Hostname    | Hardware         | Primary role           | OS / Platform |
 |-------------|------------------|------------------------|---------------|
 | pfSense-LAB | Lenovo M720q     | Edge Router / Firewall | pfSense       |
-| Switch-LAB  | Cisco C2960G     | Layer 2 switching      | Cisco IOS     |
+| SW1-LAB     | Cisco C2960G     | Layer 2 switching      | Cisco IOS     |
 | Prox-LAB    | Lenovo M910Q     | Primary Hypervisor     | Proxmox VE 8  |
 | AP-U7       | Ubiquiti U7 Lite | Wireless access        | UniFi Network |
 
 ## Core Services
-* **Routing/DHCP/DNS:** ROuting & DHCP handled by pfSense, DNS through AdGuard on an LXC.
+* **Routing/DHCP/DNS:** Routing & DHCP handled by pfSense, DNS through AdGuard on an LXC.
 * **UniFi Controller:** LXC container on Prox-LAB.
 * **Remote Access:** OpenVPN server configured on pfSense.
 
