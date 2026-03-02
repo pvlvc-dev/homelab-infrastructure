@@ -7,7 +7,7 @@
 
 ## Interface assignments
 * **WAN Interface:** igb0 - Connected to ISP modem
-* **LAN Interface:** igb1 - Connected to Cisco C2960G (int g0/0/0)
+* **LAN Interface:** igb1 - Connected to Cisco C2960G (Interface gi0/18)
 
 ## Firewall rules
 ### WIREDUSERS
